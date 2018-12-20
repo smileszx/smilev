@@ -8,22 +8,18 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.victor.su</groupId>
-	<artifactId>smile-web</artifactId>
+	<artifactId>smile-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>smile-web</name>
-	<description>Demo project for Spring Boot</description>
+	<name>smile-service</name>
+	<description>Service</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.victor.su</groupId>
-			<artifactId>smile-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>

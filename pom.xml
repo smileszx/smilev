@@ -21,6 +21,7 @@
 
 	<modules>
 		<module>smile-web</module>
+		<module>smile-service</module>
 	</modules>
 
 	<dependencies>
@@ -102,4 +103,20 @@
 		</plugins>
 	</build>
 
+	<profiles>
+		<profile>
+			<id>local</id>
+			<properties>
+				<!--<mvn.jimUrl>jim://1803528818953446384/1</mvn.jimUrl>-->
+				<!--<mvn.domain>127.0.0.1</mvn.domain>-->
+			</properties>
+		</profile>
+		<profile>
+			<id>online</id>
+			<properties>
+				<!--<mvn.jimUrl>jim://2589990478083463311/4568</mvn.jimUrl>-->
+				<!--<mvn.domain>xbrain-diagnosis.jd.com/</mvn.domain>-->
+			</properties>
+		</profile>
+	</profiles>
 </project>
