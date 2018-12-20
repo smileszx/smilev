@@ -8,10 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.victor.su</groupId>
-	<artifactId>smile-web</artifactId>
+	<artifactId>smile-orm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>smile-web</name>
+	<name>smile-orm</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -19,16 +18,7 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.victor.su</groupId>
-			<artifactId>smile-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.victor.su</groupId>
-			<artifactId>smile-orm</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -36,6 +26,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.mybatis.generator</groupId>
+				<artifactId>mybatis-generator-maven-plugin</artifactId>
+				<version>1.3.5</version>
+				<configuration>
+					<verbose>true</verbose>
+					<overwrite>true</overwrite>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
