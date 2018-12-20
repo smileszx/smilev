@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
     <!-- 配置mysql 驱动jar包路径.用了绝对路径 -->
-    <classPathEntry location="D:\MavenLocal\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar" />
+    <classPathEntry location="E:\SVN\Maven\repo\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar" />
 
     <context id="mysql_tables" targetRuntime="MyBatis3">
         <!-- 防止生成的代码中有很多注释，加入下面的配置控制 -->
@@ -16,9 +16,9 @@
 
         <!-- 数据库连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/sakila?useUnicode=true"
                         userId="root"
-                        password="admin">
+                        password="root">
         </jdbcConnection>
         <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
                         <!--connectionURL="jdbc:mysql://192.168.194.143:3306/xbrain_diagnosis?useUnicode=true"-->
@@ -31,23 +31,23 @@
         </javaTypeResolver>
 
         <!-- 数据表对应的model层  -->
-        <javaModelGenerator targetPackage="com.victor.su.entity.dbone" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.victor.su.entity.dbtwo" targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
         <!-- sql mapper 映射配置文件 -->
-        <sqlMapGenerator targetPackage="mybatis.mapper.dbone"  targetProject="src/main/resources">
+        <sqlMapGenerator targetPackage="mybatis.mapper.dbtwo"  targetProject="src/main/resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
         <!-- mybatis3中的mapper接口 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.victor.su.dao.dbone" targetProject="src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.victor.su.dao.dbtwo" targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
         <!-- 数据表进行生成操作 schema:相当于库名; tableName:表名; domainObjectName:对应的DO -->
-        <table tableName="db" domainObjectName="DB"
+        <table tableName="actor" domainObjectName="Actor"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">

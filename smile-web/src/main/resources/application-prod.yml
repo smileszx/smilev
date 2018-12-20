@@ -1,77 +1,21 @@
 spring:
-#  redis:
-#    host: 10.95.0.176
-#    port: 6379
-#    timeout: 5000
   datasource:
     operations:
       jdbc-url: jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
       username: root
-      password: admin
+      password: root
       driver-class-name: com.mysql.jdbc.Driver
       hikari:
         pool-name: pool-zk
         maximum-pool-size: 50
         minimum-idle: 10
-#    diagnosis:
-#      jdbc-url: jdbc:mysql://172.18.147.140:3358/xbrain_diagnosis?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-#      username: xwms_rw_1
-#      password: WRO00DSw3(d6aSJDF~1WRC
-#      driver-class-name: com.mysql.jdbc.Driver
-#      hikari:
-#        pool-name: pool-zk
-#        maximum-pool-size: 50
-#        minimum-idle: 10
   servlet:
     multipart:
       max-file-size: 30Mb
       max-request-size: 30Mb
-#  mail:
-#    host: smtp.jd.local
-#    username: xbrain
-#    password: KBcxbwtusbs&565
-#    default-encoding: UTF-8
-#mail:
-#  fromMail:
-#    addr: xbrain@jd.com
-#  remindMail:
-#    addr: suzhengxiao@jd.com
-#  person: x-dm@jd.com
-#login:
-#  address: http://ssa.jd.com/sso/login
-#sso:
-#  exclude:
-#    path: /static,/v1,/error
-#  auth:
-#    cookie:
-#      domain:.jd.com
-#
-#usf:
-#  app-code: xbrain
-#  app-token: dug4lh9h9jt0jj8wsc7wa
-#jsf:
-#  usf:
-#    alias: usf
-#jimdb:
-#  url: jim://2589990478083463311/4568
-#workstation:
-#  address: http://xwms.jd.test/workstationsmart/
-#jss:
-#  accessKey: NNc5W29NxwMIF6Yp
-#  secretKey: 27lMFRHGPE6G6vBw8ST6dY4rdJ8UaRwlPjHuFeal
-#  endpoint: storage.jd.local
-#  connectionTimeout: 50000
-#jssurlip: xbrain.org
-#jssdomain: storage.jd.com
-#jss1:
-#  accessKey: vv2UnokLJU1pNVY5
-#  secretKey: BV0UH02Llhj9W000sjcqP3ScocISVpWZp2gOb1fv
-#  endpoint: storage.jd.local
-#  connectionTimeout: 50000
-#jssurlip1: device.log
 mybatis-plus:
   mapper-locations: classpath:mybatis/mapper/*.xml
-  typeAliasesPackage: com.jd.x.diagnosis.domain;com.jd.x.diagnosis.condition;com.jd.x.diagnosis.dto
+  typeAliasesPackage:
   global-config:
     #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
     id-type: 0
@@ -86,52 +30,3 @@ mybatis-plus:
       default-statement-timeout: 30
       lazy-loading-enabled: true
       multiple-result-sets-enabled: true
-#jobs:
-#  quasi-realtime: 0/5 * * * * ?
-#  realtime: 0/1 * * * * ?
-#  once-day: 0 0 0 * * ?
-#  landcode-update: 0 0 0,12,20 * * ?
-#  compass-agvtask: 0 0 3 * * ?
-#  sync-sn-task: 0 0/3 * * * ?
-#thresholds:
-#  month-threshold: 5
-#  daily-threshold: 3
-#  compass-daycount: 28
-#  sync-sn-minute: 10
-#jmq:
-#  diagnosis:
-#    address: jmq-cluster.jd.local:80
-#    user: xbrain
-#    password: 5BEAF6BF
-#    app: xbrain
-#    topic: brain_simulation
-#    epoll: true
-#  operations:
-#    address: jmq-cluster.jd.local:80
-#    user: xbrain
-#    password: 5BEAF6BF
-#    app: xbrain
-#    topic: xbrain
-#    epoll: true
-#equipsmart:
-#  url: /traffic/api/
-#datapool:
-#  url: xbrain-datapool.jd.com
-#mergeversion:
-#  url: /traffic/api/
-#  warehouseip: http://xwmsshyy3.jd.com,http://xwmsshzs1.jd.com,http://xwmswhxz1.jd.com,http://xwmswhxz3.jd.com,http://xwmsjnpls1.jd.com,http://xwmslyzhd1.jd.com,http://xwmssyjy1.jd.com,http://xwmssyhn.jd.com,http://xwmsnnfdc1.jd.com,http://xwmsbjyy1.jd.com,http://xwmsgahx1.jd.com,http://xwmsdljz1.jd.com,http://xwmsshqp1.jd.com,http://xwmsgzzy1.jd.com,http://xwmsbjbw2.jd.com,http://xwmsshyy2.jd.com
-#nomergeversion:
-#  url: /equipsmart/api/
-#  warehouseip: http://xwmsbjao1.jd.com,http://xwmsbjnxy.jd.com,http://xwmsbjbjk1.jd.com,http://xwmszzpls3.jd.com
-#carstate:
-#  sleepTime: 200
-#  waitTime: 100
-#  lenthCeiling: 0
-#  floor: 5
-#  fetchDataOnce: 3
-#elasticsearch:
-#  cluster-name: jiesi-jdrobot
-#  cluster-node1: 10.194.36.76
-#  node1-port: 10102
-#equipexport:
-#  pageSize: 200
