@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/smile-orm/smile-orm.iml" filepath="$PROJECT_DIR$/smile-orm/smile-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smile-service/smile-service.iml" filepath="$PROJECT_DIR$/smile-service/smile-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smile-web/smile-web.iml" filepath="$PROJECT_DIR$/smile-web/smile-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smilev.iml" filepath="$PROJECT_DIR$/smilev.iml" />
+    </modules>
+  </component>
+</project>
