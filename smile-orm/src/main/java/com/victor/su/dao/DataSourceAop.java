@@ -25,7 +25,6 @@ public class DataSourceAop {
         DbContextHolder.setDbType(DBTypeEnum.dbtwo);
     }
 
-
     @After("execution(* com.victor.su.dao.*..*.*(..)) ")
     public void afterReturning() throws Throwable {
         DbContextHolder.setDbType(DBTypeEnum.dbone);

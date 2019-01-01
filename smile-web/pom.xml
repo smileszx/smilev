@@ -29,7 +29,12 @@
 			<artifactId>smile-orm</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
