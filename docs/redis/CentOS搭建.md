@@ -86,3 +86,56 @@ make MALLOC=libc
 
 报错tcl缺失
 yum install tcl
+
+解决这些问题，继续安装redis 
+make clean 一下，重新执行 make && make test && make install
+
+只需要用到两个文件就可以了：redis-server和redis-cli
+
+/usr/local/目录下创建了一个redis 目录
+
+ cd /usr/local/
+
+ mkdir redis
+
+然后将src目录下的redis-server和server-cli 复制到redis目录下
+
+[root@localhost src]# cp redis-cli redis-server /usr/local/redis/
+
+redis.conf也拷贝到/usr/local/redis/目录下
+
+修改redis.conf 文件，将daemonize no 改为daemonize yes
+
+执行命令：  ./redis-server redis.conf  可以让Redis 后台运行
+关闭所有redis进程命令，killall redis-server
+
+pstree命令查看是否存在redis进程
+
+linux环境需要安装 yum list | grep ** 也没有找到可安装的包. 
+实际上在linux平台要安装psmisc
+
+即可执行
+pstree
+
+systemd─┬─NetworkManager─┬─dhclient
+        │                └─2*[{NetworkManager}]
+        ├─auditd───{auditd}
+        ├─chronyd
+        ├─crond
+        ├─dbus-daemon───{dbus-daemon}
+        ├─firewalld───{firewalld}
+        ├─login───bash
+        ├─lvmetad
+        ├─master─┬─pickup
+        │        └─qmgr
+        ├─polkitd───6*[{polkitd}]
+        ├─redis-server───3*[{redis-server}]
+        ├─rsyslogd───2*[{rsyslogd}]
+        ├─sshd─┬─sshd───sftp-server
+        │      └─sshd───bash───pstree
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-udevd
+        └─tuned───4*[{tuned}]
+
+killall redis-server

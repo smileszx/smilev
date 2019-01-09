@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5291b82-042b-4d87-ad5a-64523c428bf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/redis/CentOS搭建.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/docs/redis/CentOS搭建.md" afterPath="$PROJECT_DIR$/docs/redis/CentOS搭建.md" />
     </list>
     <ignored path="$PROJECT_DIR$/smile-orm/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +71,8 @@
         <entry file="file://$PROJECT_DIR$/docs/redis/CentOS搭建.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2016">
-                <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+              <first_editor relative-caret-position="1035">
+                <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -734,7 +734,7 @@
       <workItem from="1546837112394" duration="6714000" />
       <workItem from="1547006646780" duration="1278000" />
       <workItem from="1547011069078" duration="1066000" />
-      <workItem from="1547038896699" duration="1464000" />
+      <workItem from="1547038896699" duration="2904000" />
     </task>
     <task id="LOCAL-00001" summary="commit new">
       <created>1546351276055</created>
@@ -806,11 +806,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547011536881</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="install centos">
+      <created>1547046576138</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547046576138</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81188000" />
+    <option name="totallyTimeSpent" value="82628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -899,7 +906,8 @@
     <MESSAGE value="linux init config" />
     <MESSAGE value="number sender" />
     <MESSAGE value="test gc" />
-    <option name="LAST_COMMIT_MESSAGE" value="test gc" />
+    <MESSAGE value="install centos" />
+    <option name="LAST_COMMIT_MESSAGE" value="install centos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1485,8 +1493,8 @@
     <entry file="file://$PROJECT_DIR$/docs/redis/CentOS搭建.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2016">
-            <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <first_editor relative-caret-position="1035">
+            <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
