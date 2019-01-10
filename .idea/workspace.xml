@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5291b82-042b-4d87-ad5a-64523c428bf5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/docs/mybatis/Mybatis原理.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docs/redis/CentOS搭建.md" afterPath="$PROJECT_DIR$/docs/redis/CentOS搭建.md" />
     </list>
     <ignored path="$PROJECT_DIR$/smile-orm/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/docs/redis/缓存架构.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="117">
-                <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <first_editor relative-caret-position="288">
+                <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -57,7 +57,7 @@
       <file leaf-file-name="ReferenceGC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/gc/ReferenceGC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="240">
               <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
                 <element signature="e#240#241#0" expanded="true" />
@@ -67,12 +67,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CentOS搭建.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CentOS搭建.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/redis/CentOS搭建.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1035">
-                <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+              <first_editor relative-caret-position="885">
+                <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mybatis原理.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/mybatis/Mybatis原理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="336">
+                <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -150,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/MyBatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/singleton/SingletonTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/Star.java" />
@@ -201,6 +213,7 @@
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/gc/ReferenceGC.java" />
         <option value="$PROJECT_DIR$/docs/redis/CentOS环境搭建.md" />
         <option value="$PROJECT_DIR$/docs/redis/CentOS搭建.md" />
+        <option value="$PROJECT_DIR$/docs/mybatis/Mybatis原理.md" />
       </list>
     </option>
   </component>
@@ -248,8 +261,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="329" />
+    <option name="y" value="47" />
     <option name="width" value="1759" />
     <option name="height" value="903" />
   </component>
@@ -294,8 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,57 +318,6 @@
               <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
               <item name="smilev" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
@@ -394,6 +354,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -734,7 +696,8 @@
       <workItem from="1546837112394" duration="6714000" />
       <workItem from="1547006646780" duration="1278000" />
       <workItem from="1547011069078" duration="1066000" />
-      <workItem from="1547038896699" duration="2904000" />
+      <workItem from="1547038896699" duration="3523000" />
+      <workItem from="1547133621031" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="commit new">
       <created>1546351276055</created>
@@ -813,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547046576138</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="install redis">
+      <created>1547048966606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547048966607</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82628000" />
+    <option name="totallyTimeSpent" value="83607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -835,7 +805,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19206008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19474249" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -907,7 +877,9 @@
     <MESSAGE value="number sender" />
     <MESSAGE value="test gc" />
     <MESSAGE value="install centos" />
-    <option name="LAST_COMMIT_MESSAGE" value="install centos" />
+    <MESSAGE value="install redis" />
+    <MESSAGE value="mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -967,13 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/cglib/beans/BeanMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4823">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/support/ResourceTransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1463,25 +1428,18 @@
     <entry file="file://$PROJECT_DIR$/docs/redis/缓存架构.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="117">
-            <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <first_editor relative-caret-position="288">
+            <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/redis/CentOS环境搭建.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/redis/CentOS环境搭建.md" />
     <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/gc/ReferenceGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="240">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="e#240#241#0" expanded="true" />
@@ -1493,8 +1451,19 @@
     <entry file="file://$PROJECT_DIR$/docs/redis/CentOS搭建.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1035">
-            <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <first_editor relative-caret-position="885">
+            <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mybatis/Mybatis原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
