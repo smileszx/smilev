@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5291b82-042b-4d87-ad5a-64523c428bf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/jdbc/JDBCTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Father.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Son.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/TestQiangzhi.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docs/mybatis/Mybatis原理.md" afterPath="$PROJECT_DIR$/docs/mybatis/Mybatis原理.md" />
     </list>
     <ignored path="$PROJECT_DIR$/smile-orm/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="缓存架构.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/redis/缓存架构.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReferenceGC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/gc/ReferenceGC.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,7 +62,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="189">
-                <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+                <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -81,15 +70,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDBCTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JDBCTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/jdbc/JDBCTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1547216137912" expanded="true" signature="580:618" ph="select * fro... user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Father.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Father.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#83#84#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Son.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Son.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestQiangzhi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/TestQiangzhi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,36 +154,6 @@
           </provider>
           <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmileWebApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/SmileWebApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/singleton/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/singleton/SingletonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -180,10 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/singleton/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/Star.java" />
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/RealStar.java" />
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/StarProxy.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/StaticProxyTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/JdkDynamicProxy.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/proxy/JayChow.java" />
@@ -231,6 +234,10 @@
         <option value="$PROJECT_DIR$/docs/redis/CentOS搭建.md" />
         <option value="$PROJECT_DIR$/docs/mybatis/Mybatis原理.md" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/jdbc/JDBCTest.java" />
+        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Main.java" />
+        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Father.java" />
+        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Son.java" />
+        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/TestQiangzhi.java" />
       </list>
     </option>
   </component>
@@ -354,6 +361,40 @@
             </path>
             <path>
               <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smilev" type="462c0819:PsiDirectoryNode" />
+              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smilev" type="462c0819:PsiDirectoryNode" />
+              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smilev" type="462c0819:PsiDirectoryNode" />
+              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="su" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smilev" type="462c0819:PsiDirectoryNode" />
+              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="su" type="462c0819:PsiDirectoryNode" />
+              <item name="wapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -393,7 +434,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis-3" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -418,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCTest.testConnection">
+  <component name="RunManager" selected="Application.TestQiangzhi">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -426,17 +467,17 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.victor.su.*" />
+          <option name="PATTERN" value="com.victor.su.wapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.victor.su.InnerTest" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.victor.su.wapper.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -483,14 +524,14 @@
       <module name="smile-web" />
       <envs />
     </configuration>
-    <configuration name="SyncLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQiangzhi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.victor.su.synclock.*" />
+          <option name="PATTERN" value="com.victor.su.wapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.victor.su.synclock.SyncLockTest" />
+      <option name="MAIN_CLASS_NAME" value="com.victor.su.wapper.TestQiangzhi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -683,19 +724,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SmileWebApplication" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.smilev" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InnerTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SyncLockTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReferenceGC" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SingletonTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.JDBCTest.testConnection" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReferenceGC" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SingletonTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JDBCTest.testConnection" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="6" class="java.lang.String" itemvalue="Application.TestQiangzhi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JDBCTest.testConnection" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReferenceGC" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SingletonTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InnerTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SyncLockTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestQiangzhi" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JDBCTest.testConnection" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReferenceGC" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -734,7 +775,7 @@
       <workItem from="1547011069078" duration="1066000" />
       <workItem from="1547038896699" duration="3523000" />
       <workItem from="1547133621031" duration="986000" />
-      <workItem from="1547214062166" duration="2684000" />
+      <workItem from="1547214062166" duration="7532000" />
     </task>
     <task id="LOCAL-00001" summary="commit new">
       <created>1546351276055</created>
@@ -827,7 +868,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547133986167</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="mybatis">
+      <created>1547218338829</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547218338829</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -857,11 +905,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86917000" />
+    <option name="totallyTimeSpent" value="91765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -871,7 +918,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035944205" sideWeight="0.49500713" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30530974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30530974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -884,7 +931,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48197597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36946902" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -989,6 +1036,12 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Main.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/aopalliance/aop/AspectException.class</url>
           <line>12</line>
@@ -1004,39 +1057,11 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/support/AbstractTransactionStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="72" column="52" lean-forward="true" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/SavepointManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar!/org/springframework/jdbc/datasource/JdbcTransactionObjectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="85" column="55" lean-forward="true" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/sql/Savepoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/MysqlSavepoint.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1512,7 +1537,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="189">
-            <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1544,11 +1569,51 @@
     <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/jdbc/JDBCTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1547216137912" expanded="true" signature="580:618" ph="select * fro... user" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/TestQiangzhi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
