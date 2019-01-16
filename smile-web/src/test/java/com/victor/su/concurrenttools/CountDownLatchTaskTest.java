@@ -69,7 +69,7 @@ public class CountDownLatchTaskTest {
              任務全部結束，2019-01-15 20:04:40
          */
 
-//        ExecutorService pool = Executors.newSingleThreadExecutor(); //線程池中只有一個線程在處理任務
+//        ExecutorService pool = Executors.newSingleThreadExecutor(); //線程池中只有一個線程在處理任務,相當於串行執行
         /**
          * pool-1-thread-1 TaskA start at 2019-01-15 20:07:20
          pool-1-thread-1 TaskA complete at 2019-01-15 20:07:21
