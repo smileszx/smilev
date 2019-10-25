@@ -18,7 +18,7 @@ public class Cooker {
         egg.pourOil("much");
         egg.cookProcess();
         egg.dishUp();
-        egg.taste();
+//        egg.taste();
 
     }
 }

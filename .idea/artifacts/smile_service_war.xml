@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="smile-service:war">
     <output-path>$PROJECT_DIR$/smile-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>smile-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="smile-service-0.0.1-SNAPSHOT.war">
       <element id="artifact" artifact-name="smile-service:war exploded" />
     </root>

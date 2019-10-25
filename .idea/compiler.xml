@@ -18,4 +18,11 @@
       <module name="smilev" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="smile-orm" options="-parameters" />
+      <module name="smile-service" options="-parameters" />
+      <module name="smile-web" options="-parameters" />
+    </option>
+  </component>
 </project>
