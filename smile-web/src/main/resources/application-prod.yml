@@ -20,8 +20,8 @@ spring:
         minimum-idle: 10
   servlet:
     multipart:
-      max-file-size: 30Mb
-      max-request-size: 30Mb
+      max-file-size: 30
+      max-request-size: 30
 mybatis-plus:
   mapper-locations: classpath:mybatis/mapper/*.xml
   typeAliasesPackage:

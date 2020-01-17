@@ -6,17 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5291b82-042b-4d87-ad5a-64523c428bf5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/smile_service_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/smile_service_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/smile_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/smile_service_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/smile_web_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/smile_web_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/smile_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/smile_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e5291b82-042b-4d87-ad5a-64523c428bf5" name="Default" comment="class init order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassB.java" beforeDir="false" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/pattern/template/Cooker.java" beforeDir="false" afterPath="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/pattern/template/Cooker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smile-web/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/smile-web/src/main/resources/application-prod.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/smile-orm/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,7 +26,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/SmileWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,81 +39,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smile-web/src/main/resources/application-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-382" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/common/CommonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="114">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/concurrenttools/ConcurrentDateUtil.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/common/CommonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <element signature="e#462#463#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/gc/ReferenceGC.java">
+        <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DBTypeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="95">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/jdbc/JDBCTest.java">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/DBConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="95">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassB.java">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/MyBatisPlusConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="432">
+              <caret line="50" column="63" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassTest.java">
+        <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/ServletInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="247">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/pattern/template/Cooker.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9.jar!/com/baomidou/mybatisplus/enums/DBType.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="133">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smile-orm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbone/DBMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -154,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/FinalClass.java" />
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/FinalMethodTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/FinalTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/payment/PayMeintService.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/payment/PayMentService.java" />
@@ -193,7 +189,6 @@
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Father.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Son.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/TestQiangzhi.java" />
-        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/common/CommonTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/thread/Thread.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/thread/ThreadGroupTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/concurrenttools/ThreadLocalDateUtil.java" />
@@ -205,6 +200,9 @@
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassTest.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassB.java" />
         <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassA.java" />
+        <option value="$PROJECT_DIR$/smile-web/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/MyBatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/common/CommonTest.java" />
       </list>
     </option>
   </component>
@@ -245,11 +243,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-165" />
-    <option name="y" value="655" />
-    <option name="width" value="1895" />
-    <option name="height" value="755" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="1" />
+    <option name="width" value="1933" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -282,6 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,167 +291,6 @@
             <path>
               <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
               <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dbone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dbtwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="dbone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="dbtwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-orm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
               <item name="smile-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -467,33 +305,6 @@
               <item name="smile-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
@@ -537,52 +348,11 @@
               <item name="su" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrenttools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="gc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilev" type="462c0819:PsiDirectoryNode" />
-              <item name="smile-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="su" type="462c0819:PsiDirectoryNode" />
-              <item name="keyword" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -594,9 +364,10 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572017255817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579274478342" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -808,9 +579,9 @@
       <item itemvalue="Application.ThreadGroupTest" />
       <item itemvalue="Application.CountDownLatchTaskTest" />
       <item itemvalue="Application.Cooker" />
+      <item itemvalue="Application.ClassTest" />
       <item itemvalue="Spring Boot.SmileWebApplication" />
       <item itemvalue="Tomcat Server.smilev" />
-      <item itemvalue="Application.ClassTest" />
     </list>
     <recent_temporary>
       <list>
@@ -866,7 +637,8 @@
       <workItem from="1548081033142" duration="377000" />
       <workItem from="1548081598568" duration="92000" />
       <workItem from="1570544365960" duration="944000" />
-      <workItem from="1572016328509" duration="911000" />
+      <workItem from="1572016328509" duration="1262000" />
+      <workItem from="1579076856283" duration="6078000" />
     </task>
     <task id="LOCAL-00001" summary="commit new">
       <created>1546351276055</created>
@@ -980,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547651693401</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="class init order">
+      <created>1572017517684</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572017517684</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1010,13 +789,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120882000" />
+    <option name="totallyTimeSpent" value="127311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-5" y="1" width="1546" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41196236" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1024,11 +803,10 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30470914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30470914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36946902" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1043,6 +821,8 @@
       <window_info anchor="bottom" id="JProfiler" order="14" weight="0.32964602" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="17" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1150,7 +930,8 @@
     <MESSAGE value="mybatis" />
     <MESSAGE value="test threadpool and countdownlatch" />
     <MESSAGE value="template pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="template pattern" />
+    <MESSAGE value="class init order" />
+    <option name="LAST_COMMIT_MESSAGE" value="class init order" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1208,20 +989,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/wapper/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/thread/DaemonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1429,62 +1196,8 @@
         <state relative-caret-position="-57" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/resources/mybatis/mapper/dbone/DBMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5280" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DBTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DynamicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DbContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DataSourceAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbtwo/ActorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbtwo/TwoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbone/DBMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smile-orm/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1500,53 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/DBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/MyBatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/SmileWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/common/CommonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1574,17 +1240,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/pattern/template/Cooker.java">
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="190">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1595,10 +1254,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassA.java">
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/pattern/template/Cooker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/keyword/ClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/resources/mybatis/mapper/dbone/DBMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbtwo/ActorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbtwo/TwoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DataSourceAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DbContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/SmileWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9.jar!/com/baomidou/mybatisplus/enums/DBType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/MyBatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/config/DBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/main/java/com/victor/su/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/DBTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-orm/src/main/java/com/victor/su/dao/dbone/DBMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smile-web/src/test/java/com/victor/su/common/CommonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
